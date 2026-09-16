@@ -17,9 +17,9 @@ Funcionalidade: Configuração de produto na EBAC-SHOP
 
   Cenário: Limite de quantidade máxima de produtos por venda
     Quando eu selecionar o tamanho "M"
-    E selecionar a cor "Blue"
-    E definir a quantidade em "11"
-    E clicar no botão "COMPRAR"
+    e selecionar a cor "Blue"
+    e definir a quantidade em "11"
+    e clicar no botão "COMPRAR"
     Então o sistema deve exibir uma mensagem de erro informando o limite máximo de 10 produtos por venda
 
   Cenário: Restaurar estado original do produto
