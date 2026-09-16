@@ -8,8 +8,7 @@ Funcionalidade: Configuração de produto na EBAC-SHOP
     Dado que estou na página de detalhe do produto "Augusta Pullover Jacket"
 
   Cenário: Configuração válida e inserção no carrinho
-    Quando eu selecionar o tamanho "S", selecionar a cor "Orange" E definir a quantidade em "2"
-    E clicar no botão "COMPRAR"
+    Quando eu selecionar o tamanho "S", selecionar a cor "Orange" E definir a quantidade em "2" e clicar no botão "COMPRAR"
     Então o produto deve ser adicionado ao carrinho com sucesso
 
   Cenário: Tentativa de inserção sem seleções obrigatórias
