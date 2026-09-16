@@ -21,4 +21,4 @@ Funcionalidade: Configuração de produto na EBAC-SHOP
 
   Cenário: Restaurar estado original do produto
     Quando selecionar o tamanho "XL", a cor "Red" e a quantidade "5" e clicar no botão "Limpar"
-    Entãotodas as seleções de tamanho, cor e quantidade devem retornar ao estado original padrão
+    Então todas as seleções de tamanho, cor e quantidade devem retornar ao estado original padrão
