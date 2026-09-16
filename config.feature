@@ -20,6 +20,5 @@ Funcionalidade: Configuração de produto na EBAC-SHOP
     Então o sistema deve exibir uma mensagem de erro informando o limite máximo de 10 produtos por venda
 
   Cenário: Restaurar estado original do produto
-    E selecionei o tamanho "XL", a cor "Red" e a quantidade "5"
-    Quando eu clicar no botão "Limpar"
+    Quando selecionar o tamanho "XL", a cor "Red" e a quantidade "5" e eu clicar no botão "Limpar"
     Então todas as seleções de tamanho, cor e quantidade devem retornar ao estado original padrão
